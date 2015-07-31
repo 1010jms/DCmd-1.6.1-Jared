@@ -1,0 +1,53 @@
+/* Essentials */
+
+html, div, map, dt, isindex, form, header, aside, section, section, article, footer {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    /* background: #F8F8F8; */
+    /* background: url(content_images/Gray-motion-black.png) repeat-x;
+    */
+    background: -moz-linear-gradient(90deg, #262626 0, #000000 76%);/* FF3.6+ */
+    background: -webkit-gradient(linear, 90deg, color-stop(0, 262626), color-stop(76%, 000000));/* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(90deg, #262626 0, #000000 76%);/* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(90deg, #262626 0, #000000 76%);/* Opera 11.10+ */
+    background: -ms-linear-gradient(90deg, #262626 0, #000000 76%);/* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+    background: linear-gradient(90deg, #262626 0, #000000 76%);/* W3C */
+
+    font-size: 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+.spacer {
+    height: 20px;
+}
+
+a:link, a:visited {
+    color: #77BACE;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article#container{
+    background: #222222;
+}
+
+header#header {
+    font-family: "Arial Black", Arial, Helvetica, sans-serif;
+    height: 55px;
+    width: 100%;
+    background: #222222 url(content_images/greygrain.png) repeat-x;
+
+}
